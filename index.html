@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Chat Application</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container mx-auto">
+            <div class="flex items-center justify-between pt-4 pb-10 md:pb-5">
+                <div class="logo">
+                    <a href="#hero">
+                        <img src="images/LOgo.png" alt="logo">
+                    </a>
+                </div>
+                <ul class="hidden md:flex gap-6 items-center">
+                    <li><a href="#demos"
+                            class="text-base font-medium text-black hover:text-yellow transition-all duration-300">Demos</a>
+                    </li>
+                    <li><a href="#about"
+                            class="text-base font-medium text-black hover:text-yellow transition-all duration-300">About</a>
+                    </li>
+                    <li><a href="#blog"
+                            class="text-base font-medium text-black hover:text-yellow transition-all duration-300">Blog</a>
+                    </li>
+                    <li><a href="#pages"
+                            class="text-base font-medium text-black hover:text-yellow transition-all duration-300">Pages</a>
+                    </li>
+                    <li><a href="#contact"
+                            class="text-base font-medium text-black hover:text-yellow transition-all duration-300">Contact</a>
+                    </li>
+                </ul>
+                <div class="hidden md:flex gap-4">
+                    <a href="#about"
+                        class="text-base font-medium text-black leading-[30px] py-3 px-5 rounded-md hover:bg-yellow transition-all duration-300 hover:text-white ">Login</a>
+                    <a href="#blogs"
+                        class="text-base font-medium text-white border border-yellow leading-[30px] py-3 px-5 rounded-lg bg-yellow hover:bg-transparent transition-all duration-300 hover:text-yellow ">Get
+                        Started Free</a>
+                </div>
+                <div class="block md:hidden cursor-pointer"><img src="icons/Menubar.png" alt="menu"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Demos -->
+    <section id="demos" class="container mx-auto">
+        <div class="flex flex-col md:items-center lg:flex-row lg:pt-10 gap-[30px] md:gap-20">
+            <div class="flex-1 flex flex-col gap-8 md:gap-[106px]">
+                <div class="flex flex-col gap-4 md:gap-7">
+                    <h1 class="font-poppins font-bold text-[34px] leading-[50px] md:text-[50px] md:leading-[60px]">Start
+                        chatting with
+                        customers, anytime, anywhere with
+                        Apex</h1>
+                    <p class="text-grayBold text-lg">Great software that allows you to chat from any place at any time
+                        without
+                        any
+                        interruption.</p>
+                    <a href="#blogs" class="flex mr-auto flex-auto items-center gap-2 border border-yellow leading-[30px] py-4 px-7 rounded-lg 
+                        bg-yellow hover:bg-primary transition-all"><span
+                            class="text-base font-medium text-white transition-all duration-300">Get
+                            Started Free</span><img src="icons/arrow-right.png" alt="icon"></a>
+                </div>
+                <div class="flex flex-col items-start md:items-center md:flex-row md:gap-6">
+                    <div class="flex items-center gap-5">
+                        <img src="images/users.png" alt="img">
+                        <div class="flex flex-col gap-1">
+                            <h3 class=" text-black font-bold text-3xl">
+                                2,291
+                            </h3>
+                            <p class="text-grayBold text-base">Happy Customers</p>
+                        </div>
+                    </div>
+                    <img src="icons/Line 1.png" alt="img"
+                        class="w-[1px] h-10 rotate-90 translate-x-5 md:translate-x-0 md:rotate-0">
+                    <div class="flex flex-col gap-1">
+                        <h3 class=" text-black font-bold text-3xl">
+                            4.8/5
+                        </h3>
+                        <div class="flex gap-[10px]">
+                            <img src="icons/Stars.png" alt="stars">
+                            <p class="text-base text-grayBold">Rating</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/2">
+                <img src="images/hero-bg.png" alt="img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="pb-6 pt-10 md:pt-20 md:pb-16">
+        <div class="container mx-auto">
+            <div class="flex flex-col gap-6 md:gap-[46px]">
+                <h2 class="font-poppins text-4xl leading-[56px] font-bold text-center">Features for a better experience
+                </h2>
+                <ul class="flex flex-col flex-wrap lg:flex-nowrap gap-1 md:gap-6 md:flex-row">
+                    <li class="p-5 px-8 md:p-7 flex flex-col items-center 
+                        md:items-start md:flex-row gap-4 md:gap-[22px]">
+                        <img src="icons/f-icon1.png" alt="icon"
+                            class="hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                        <div class="flex flex-col gap-[10px] md:gap-3 text-center md:text-left">
+                            <h4 class="font-poppins text-black text-xl font-bold">Video messaging</h4>
+                            <p class="text-base text-grayBold">This software is very easy for you to manage. You can use
+                                it as you wish.</p>
+                        </div>
+                    </li>
+                    <li class="p-5 px-8 md:p-7 flex flex-col items-center 
+                        md:items-start md:flex-row gap-4 md:gap-[22px]">
+                        <img src="icons/f-icon-2.png" alt="icon"
+                            class="hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                        <div class="flex flex-col gap-[10px] md:gap-3 text-center md:text-left">
+                            <h4 class="font-poppins text-black text-xl font-bold">Save your time</h4>
+                            <p class="text-base text-grayBold">This software is very easy for you to manage. You can use
+                                it as you wish.</p>
+                        </div>
+                    </li>
+                    <li class="p-5 px-8 md:p-7 flex flex-col items-center 
+                        md:items-start md:flex-row gap-4 md:gap-[22px]">
+                        <img src="icons/f-icon-3.png" alt="icon"
+                            class="hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                        <div class="flex flex-col gap-[10px] md:gap-3 text-center md:text-left">
+                            <h4 class="font-poppins text-black text-xl font-bold">Keep safe & private</h4>
+                            <p class="text-base text-grayBold">This software is very easy for you to manage. You can use
+                                it as you wish.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet -->
+    <section id="meet" class="w-full bg-bg3 py-11 md:py-[110px]">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row gap-9 lg:gap-0 justify-between md:items-center md:mb-0">
+                <div class="md:w-1/2">
+                    <img src="images/meet-img.png" alt="img"
+                        class="hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                </div>
+                <div class="md:w-1/2 md:mx-auto flex flex-col gap-7 md:gap-11">
+                    <h3 class="text-black lg:w-[511px] font-poppins font-bold text-[28px] md:text-5xl">Meet your
+                        customers,
+                        with
+                        live video chat
+                    </h3>
+                    <div class="flex flex-col gap-3 md:gap-7 lg:w-[511px]">
+                        <p class="text-grayBold font-medium text-lg">Proin faucibus nibh et sagittis a. Lacinia purus ac
+                            amet
+                            pellentesque aliquam enim.
+                        </p>
+                        <p class="text-grayBold font-medium text-lg">Get paychecks up to two days early. Get a $20 bonus
+                            when you receive qualifying direct deposits
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blogs" class="py-10 md:py-[110px] md:pb-[73px]">
+        <div class="container mx-auto">
+            <div class="flex flex-col-reverse lg:gap-16 lg:flex-row md:items-center justify-between">
+                <div class="flex flex-col gap-[30px] md:gap-10 lg:w-1/2">
+                    <div class="flex flex-col gap-4 md:gap-6">
+                        <h2 class="font-poppins font-bold text-[32px] md:text-5xl text-black">Start selling directly
+                            inside conversations</h2>
+                        <p class="text-base text-grayBold">There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered all injected humour or randomised words which
+                            don't look even slightly believable. </p>
+                    </div>
+                    <a href="#pages" class="text-base font-medium text-white border border-yellow leading-[30px] py-3 px-5 rounded-lg 
+                        bg-yellow hover:bg-transparent transition-all duration-300 hover:text-yellow mr-auto">Start
+                        Chatting Now</a>
+                </div>
+
+                <div class="flex-1">
+                    <img src="images/selling-lg.png" alt="img"
+                        class=" hover:-translate-y-1 transition-all duration-300 cursor-pointer hidden md:block">
+                </div>
+                <img src="images/selling-md.png" alt="img"
+                    class="block md:hidden  hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+            </div>
+        </div>
+    </section>
+
+    <!-- Pages -->
+    <section id="pages" class="w-full bg-bg3 py-10 md:py-[110px]">
+        <div class="container mx-auto">
+            <div class="flex flex-col items-center justify-between gap-8 lg:gap-0 lg:flex-row">
+                <div class="w-1/2">
+                    <img src="images/blogs.png" alt="img">
+                </div>
+                <div class="lg:max-w-[500px] lg:mx-auto">
+                    <h3 class="text-black text-3xl pb-4 md:pb-[22px] md:text-5xl font-bold">Get direct orders from your
+                        customers</h3>
+                    <p class="text-base text-grayBold mb-7 md:mb-16">Create custom landing pages with Rareblocks that
+                        converts more
+                        visitors than
+                        any
+                        website. With lots of unique blocks easily build a page. There are many variations of passages
+                        of available. </p>
+                    <ul class="flex justify-between md:justify-normal gap-0 md:gap-9">
+                        <li class="flex gap-1 md:gap-5 items-start">
+                            <h4 class="font-poppins text-3xl text-black md:text-[42px] md:leading-[56px]">4.3K+</h4>
+                            <p class="text-grayBold text-[14px] leading-[22px]">Website’s <br> Powering</p>
+                        </li>
+                        <li class="flex gap-1 md:gap-5 items-start">
+                            <h4 class="font-poppins text-3xl text-black md:text-[42px] md:leading-[56px]">7M+</h4>
+                            <p class="text-grayBold text-[14px] leading-[22px]">Chats in <br> Last 2022</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section id="testimonials" class="w-full bg-yellow pt-10 md:pt-16 pb-10 md:pb-24 relative">
+        <img src="icons/Shapes.png" alt="img" class="absolute top-0 left-0 w-[210px] md:w-[480px]">
+        <div class="container mx-auto">
+            <h1 class="text-white pb-8 md:pb-[74px] text-center font-bold text-3xl md:text-5xl">Our
+                blessed client <br>
+                said about
+                us 😍</h1>
+
+            <div class="grid md:grid-cols-2 grid-cols-1 gap-y-6 md:gap-y-0 md:gap-x-20">
+                <div class="flex flex-col gap-5 md:gap-8">
+                    <div class="w-full bg-white rounded-xl py-6 px-4 md:py-8 md:px-12 text-center 
+                        relative hover:shadow-2xl transition-all duration-300 cursor-pointer">
+                        <h4 class="text-primary text-lg md:text-xl font-bold mb-[10px] md:mb-4">“Incredible Experience”
+                        </h4>
+                        <p class="text-base md:text-lg text-grayBold">We had an incredible experience working with
+                            Mixland and were
+                            impressed they
+                            made
+                            such a big difference in only three weeks. Our team is so grateful for the wonderful
+                            improvements they made and their ability to get familiar with the concept so quickly.</p>
+                        <div
+                            class="rounded w-7 h-7 -translate-x-[50%] left-[50%] rotate-45 bg-white absolute -bottom-2">
+                        </div>
+                    </div>
+                    <div class="flex gap-4 justify-center">
+                        <img src="images/client1.png" alt="img"
+                            class="cursor-pointer hover:-translate-y-1 transition-all duration-300">
+                        <div class="flex flex-col gap-1">
+                            <h5 class="text-white text-lg font-medium">Wade Warren</h5>
+                            <p class="text-white text-[14px] leading-[24px]">CEO, ABC Corporation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-5 md:gap-8">
+                    <div class="w-full bg-white rounded-xl py-6 px-4 md:py-8 md:px-12 text-center 
+                        relative hover:shadow-2xl transition-all duration-300 cursor-pointer">
+                        <h4 class="text-primary text-lg md:text-xl font-bold mb-[10px] md:mb-4">“Dependable, Responsive,
+                            Professional”</h4>
+                        <p class="text-base md:text-lg text-grayBold">Fermin Apps has collaborated with Mixland team for
+                            several projects such as Photo Sharing Apps and Custom Social Networking Apps. The
+                            , professional and exceeding our expectations. The team is
+                            always thinking beyond.</p>
+                        <div
+                            class="rounded w-7 h-7 -translate-x-[50%] left-[50%] rotate-45 bg-white absolute -bottom-2">
+                        </div>
+                    </div>
+                    <div class="flex gap-4 justify-center">
+                        <img src="images/client2.png" alt="img"
+                            class="cursor-pointer hover:-translate-y-1 transition-all duration-300">
+                        <div class="flex flex-col gap-1">
+                            <h5 class="text-white text-lg font-medium">Esther Howard</h5>
+                            <p class="text-white text-[14px] leading-[24px]">CEO, ABC Corporation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="w-full bg-bg3 py-10 md:py-[110px]">
+        <div class="container mx-auto">
+            <div class="max-w-[740px] text-center mx-auto">
+                <div class="flex flex-col gap-7 md:gap-9">
+                    <h1 class="font-poppins font-bold text-3xl md:text-5xl">Ready to grow your business? Start with
+                        Apex, become
+                        faster every
+                        second</h1>
+                    <a href="#blogs"
+                        class="text-base mx-auto font-medium text-white border border-yellow leading-[30px] py-3 px-5 rounded-lg bg-yellow hover:bg-transparent transition-all duration-300 hover:text-yellow ">Start
+                        Chatting Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="w-full bg-bg3">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row gap-6 md:gap-0 items-center justify-between pt-4 pb-10 md:pb-5">
+                <div class="logo">
+                    <a href="#hero">
+                        <img src="images/LOgo.png" alt="logo">
+                    </a>
+                </div>
+                <ul class="flex gap-6 md:gap-16 items-center">
+                    <li><a href="#demos"
+                            class="text-base font-medium text-black hover:text-yellow transition-all duration-300">Demos</a>
+                    </li>
+                    <li><a href="#about"
+                            class="text-base font-medium text-black hover:text-yellow transition-all duration-300">About</a>
+                    </li>
+                    <li><a href="#blog"
+                            class="text-base font-medium text-black hover:text-yellow transition-all duration-300">Blog</a>
+                    </li>
+                    <li><a href="#pages"
+                            class="text-base font-medium text-black hover:text-yellow transition-all duration-300">Pages</a>
+                    </li>
+                </ul>
+                <ul class="flex gap-5">
+                    <li>
+                        <a href="https://www.twitter.com" class="w-8 h-8 rounded-lg twit flex items-center justify-center
+                        bg-transparent hover:bg-bg2 transition-all duration-300">
+                            <i class="fa-brands fa-twitter text-yellow h-[18px] w-auto hover:shadow-lg
+                            transition-all duration-300"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com" class="w-8 h-8 facebook rounded-lg twit flex items-center justify-center
+                        bg-transparent hover:bg-bg2 transition-all duration-300">
+                            <i class="fa-brands fa-facebook-f text-yellow h-[28px] w-auto hover:shadow-lg
+                                 transition-all duration-300 "></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" class="w-8 h-8 instagram rounded-lg twit flex items-center justify-center
+                        bg-transparent hover:bg-bg2 transition-all duration-300">
+                            <i class="fa-brands fa-instagram text-yellow h-[18px] w-auto hover:shadow-lg
+                                 transition-all duration-300 "></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.giyhub.com" class="w-8 h-8 github rounded-lg twit flex items-center justify-center
+                        bg-transparent hover:bg-bg2 transition-all duration-300">
+                            <i class="fa-brands fa-github text-yellow h-[18px] w-auto hover:shadow-lg
+                                 transition-all duration-300 "></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Privacy and Policy -->
+        <div class="container mx-auto">
+            <div class="footer-bottom pt-8 pb-10 flex flex-col md:flex-row gap-6 md:gap-0 md:justify-between">
+                <p class="text-base text-gray text-center md:text-left">© Copyright 2022, All Rights Reserved</p>
+                <div class="flex md:gap-6 gap-0 md:justify-normal justify-between">
+                    <a href="#features"
+                        class="text-base text-gray font-medium hover:text-primary transition-all duration-300">Privacy
+                        Policy</a>
+                    <a href="#features"
+                        class="text-base text-gray font-medium hover:text-primary transition-all duration-300">Terms &
+                        Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

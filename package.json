@@ -1,0 +1,23 @@
+{
+  "name": "chat-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SherzodAxadov2/Chat-Application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SherzodAxadov2/Chat-Application/issues"
+  },
+  "homepage": "https://github.com/SherzodAxadov2/Chat-Application#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
