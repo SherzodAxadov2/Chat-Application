@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 * {
-    font-family: 'DM Sans', sans-serif;
+    /* font-family: 'DM Sans', sans-serif; */
     scroll-behavior: smooth;
 }
 
@@ -47,22 +47,20 @@
     }
 }
 
-.twit:hover i {
-    color: #00acee;
-}
-
-.facebook:hover i {
-    color: #3b5998;
-}
-
-.instagram:hover i {
-    color: #E1306C;
-}
-
-.github:hover i {
-    color: #171515;
-}
 
 .footer-bottom {
     border-top: 1px dashed #D4D4D8;
+}
+
+.btn:hover img {
+    transform: translateX(4px);
+}
+
+.stars {
+    object-fit: contain;
+}
+
+.menu.open {
+    margin-top: 74px;
+    transition: all .3s ease-in-out;
 }
